@@ -1,6 +1,6 @@
 # 81213AE: Modeling Your Data With Visual Studio in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 
 
-Information taken from [Course 81213AE: Modeling Your Data With Visual Studio in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition] (https://mbspartner.microsoft.com/D365/CourseOverview/1636)
+Information taken from [Course 81213AE: Modeling Your Data With Visual Studio in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition](https://mbspartner.microsoft.com/D365/CourseOverview/1636)
 
 ## Description
 
