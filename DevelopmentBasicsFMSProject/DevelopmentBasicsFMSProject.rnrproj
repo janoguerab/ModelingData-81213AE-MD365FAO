@@ -33,6 +33,7 @@
     <Folder Include="EDT Reals\" />
     <Folder Include="EDT Strings\" />
     <Folder Include="Label Files\" />
+    <Folder Include="Table Extensions\" />
     <Folder Include="Tables\" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +112,11 @@
       <Name>dbDriveType</Name>
       <Link>Base Enums\dbDriveType</Link>
     </Content>
+    <Content Include="AxEnum\dbEliteStatus">
+      <SubType>Content</SubType>
+      <Name>dbEliteStatus</Name>
+      <Link>Base Enums\dbEliteStatus</Link>
+    </Content>
     <Content Include="AxEnum\dbServiceType">
       <SubType>Content</SubType>
       <Name>dbServiceType</Name>
@@ -135,6 +141,11 @@
       <SubType>Content</SubType>
       <Name>DBFM_es-CO</Name>
       <Link>Label Files\DBFM_es-CO</Link>
+    </Content>
+    <Content Include="AxTableExtension\CustTable.Extension">
+      <SubType>Content</SubType>
+      <Name>CustTable.Extension</Name>
+      <Link>Table Extensions\CustTable.Extension</Link>
     </Content>
     <Content Include="AxTable\dbCarTable">
       <SubType>Content</SubType>
