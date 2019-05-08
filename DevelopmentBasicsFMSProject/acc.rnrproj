@@ -21,7 +21,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
-    <Name>DevelopmentBasicsFMSProject</Name>
+    <Name>acc</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
