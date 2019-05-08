@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Configuration>Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <Model>DevelopmentBasicsFMS</Model>
+    <DBSyncInBuild>True</DBSyncInBuild>
+    <GenerateFormAdaptors>False</GenerateFormAdaptors>
+    <Company>
+    </Company>
+    <Partition>initial</Partition>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <DataEntityExpandParentChildRelations>False</DataEntityExpandParentChildRelations>
+    <DataEntityUseLabelTextAsFieldName>False</DataEntityUseLabelTextAsFieldName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
+    <Name>DevelopmentBasicsFMSProject</Name>
+    <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Base Enum Extensions\" />
+    <Folder Include="Base Enums\" />
+    <Folder Include="EDT Dates\" />
+    <Folder Include="EDT Extensions\" />
+    <Folder Include="EDT Integers\" />
+    <Folder Include="EDT Reals\" />
+    <Folder Include="EDT Strings\" />
+    <Folder Include="Label Files\" />
+    <Folder Include="Tables\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AxEdtExtension\CustTransRefRecId.Extension">
+      <SubType>Content</SubType>
+      <Name>CustTransRefRecId.Extension</Name>
+      <Link>EDT Extensions\CustTransRefRecId.Extension</Link>
+    </Content>
+    <Content Include="AxEdt\dbElectricCapacity">
+      <SubType>Content</SubType>
+      <Name>dbElectricCapacity</Name>
+      <Link>EDT Integers\dbElectricCapacity</Link>
+    </Content>
+    <Content Include="AxEdt\dbFuelCapacity">
+      <SubType>Content</SubType>
+      <Name>dbFuelCapacity</Name>
+      <Link>EDT Reals\dbFuelCapacity</Link>
+    </Content>
+    <Content Include="AxEdt\dbMake">
+      <SubType>Content</SubType>
+      <Name>dbMake</Name>
+      <Link>EDT Strings\dbMake</Link>
+    </Content>
+    <Content Include="AxEdt\dbMilesPerGallon">
+      <SubType>Content</SubType>
+      <Name>dbMilesPerGallon</Name>
+      <Link>EDT Integers\dbMilesPerGallon</Link>
+    </Content>
+    <Content Include="AxEdt\dbModel">
+      <SubType>Content</SubType>
+      <Name>dbModel</Name>
+      <Link>EDT Strings\dbModel</Link>
+    </Content>
+    <Content Include="AxEdt\dbModelYear">
+      <SubType>Content</SubType>
+      <Name>dbModelYear</Name>
+      <Link>EDT Integers\dbModelYear</Link>
+    </Content>
+    <Content Include="AxEdt\dbNumOfDoors">
+      <SubType>Content</SubType>
+      <Name>dbNumOfDoors</Name>
+      <Link>EDT Integers\dbNumOfDoors</Link>
+    </Content>
+    <Content Include="AxEdt\dbServiceEndDate">
+      <SubType>Content</SubType>
+      <Name>dbServiceEndDate</Name>
+      <Link>EDT Dates\dbServiceEndDate</Link>
+    </Content>
+    <Content Include="AxEdt\dbServiceStartDate">
+      <SubType>Content</SubType>
+      <Name>dbServiceStartDate</Name>
+      <Link>EDT Dates\dbServiceStartDate</Link>
+    </Content>
+    <Content Include="AxEdt\dbVehicleID">
+      <SubType>Content</SubType>
+      <Name>dbVehicleID</Name>
+      <Link>EDT Strings\dbVehicleID</Link>
+    </Content>
+    <Content Include="AxEdt\dbVN">
+      <SubType>Content</SubType>
+      <Name>dbVN</Name>
+      <Link>EDT Strings\dbVN</Link>
+    </Content>
+    <Content Include="AxEdt\dbYear">
+      <SubType>Content</SubType>
+      <Name>dbYear</Name>
+      <Link>EDT Integers\dbYear</Link>
+    </Content>
+    <Content Include="AxEnumExtension\CustTransRefType.Extension">
+      <SubType>Content</SubType>
+      <Name>CustTransRefType.Extension</Name>
+      <Link>Base Enum Extensions\CustTransRefType.Extension</Link>
+    </Content>
+    <Content Include="AxEnum\dbDriveType">
+      <SubType>Content</SubType>
+      <Name>dbDriveType</Name>
+      <Link>Base Enums\dbDriveType</Link>
+    </Content>
+    <Content Include="AxEnum\dbServiceType">
+      <SubType>Content</SubType>
+      <Name>dbServiceType</Name>
+      <Link>Base Enums\dbServiceType</Link>
+    </Content>
+    <Content Include="AxEnum\dbStatusType">
+      <SubType>Content</SubType>
+      <Name>dbStatusType</Name>
+      <Link>Base Enums\dbStatusType</Link>
+    </Content>
+    <Content Include="AxEnum\dbVehicleType">
+      <SubType>Content</SubType>
+      <Name>dbVehicleType</Name>
+      <Link>Base Enums\dbVehicleType</Link>
+    </Content>
+    <Content Include="AxLabelFile\DBFM_en-US">
+      <SubType>Content</SubType>
+      <Name>DBFM_en-US</Name>
+      <Link>Label Files\DBFM_en-US</Link>
+    </Content>
+    <Content Include="AxLabelFile\DBFM_es-CO">
+      <SubType>Content</SubType>
+      <Name>DBFM_es-CO</Name>
+      <Link>Label Files\DBFM_es-CO</Link>
+    </Content>
+    <Content Include="AxTable\dbCarTable">
+      <SubType>Content</SubType>
+      <Name>dbCarTable</Name>
+      <Link>Tables\dbCarTable</Link>
+    </Content>
+    <Content Include="AxTable\dbVehicleMaintenance">
+      <SubType>Content</SubType>
+      <Name>dbVehicleMaintenance</Name>
+      <Link>Tables\dbVehicleMaintenance</Link>
+    </Content>
+    <Content Include="AxTable\DBVehicleTable">
+      <SubType>Content</SubType>
+      <Name>dbVehicleTable</Name>
+      <Link>Tables\DBVehicleTable</Link>
+    </Content>
+    <Content Include="DBFM.en-US.label.txt">
+      <SubType>Content</SubType>
+      <Name>DBFM.en-US.label.txt</Name>
+      <DependentUpon>AxLabelFile\DBFM_en-US</DependentUpon>
+    </Content>
+    <Content Include="DBFM.es-CO.label.txt">
+      <SubType>Content</SubType>
+      <Name>DBFM.es-CO.label.txt</Name>
+      <DependentUpon>AxLabelFile\DBFM_es-CO</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Dynamics\AX\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
+</Project>
