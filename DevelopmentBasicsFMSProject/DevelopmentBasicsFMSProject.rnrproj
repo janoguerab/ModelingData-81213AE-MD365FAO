@@ -172,7 +172,7 @@
     </Content>
     <Content Include="AxTable\DBVehicleTable">
       <SubType>Content</SubType>
-      <Name>dbVehicleTable</Name>
+      <Name>DBVehicleTable</Name>
       <Link>Tables\DBVehicleTable</Link>
     </Content>
     <Content Include="DBFM.en-US.label.txt">
