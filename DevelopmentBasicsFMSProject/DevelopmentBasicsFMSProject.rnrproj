@@ -21,7 +21,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
-    <Name>acc</Name>
+    <Name>DevelopmentBasicsFMSProject</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
     <StartupObject>dbSalesLineExtensionTest</StartupObject>
     <StartupType>Class</StartupType>
