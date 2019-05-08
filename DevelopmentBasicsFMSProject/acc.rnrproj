@@ -23,10 +23,13 @@
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
     <Name>acc</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
+    <StartupObject>dbSalesLineExtensionTest</StartupObject>
+    <StartupType>Class</StartupType>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Base Enum Extensions\" />
     <Folder Include="Base Enums\" />
+    <Folder Include="Classes\" />
     <Folder Include="EDT Dates\" />
     <Folder Include="EDT Extensions\" />
     <Folder Include="EDT Integers\" />
@@ -37,6 +40,16 @@
     <Folder Include="Tables\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AxClass\dbClassExtensionDemo_Extension">
+      <SubType>Content</SubType>
+      <Name>dbClassExtensionDemo_Extension</Name>
+      <Link>Classes\dbClassExtensionDemo_Extension</Link>
+    </Content>
+    <Content Include="AxClass\dbSalesLineExtensionTest">
+      <SubType>Content</SubType>
+      <Name>dbSalesLineExtensionTest</Name>
+      <Link>Classes\dbSalesLineExtensionTest</Link>
+    </Content>
     <Content Include="AxEdtExtension\CustTransRefRecId.Extension">
       <SubType>Content</SubType>
       <Name>CustTransRefRecId.Extension</Name>
