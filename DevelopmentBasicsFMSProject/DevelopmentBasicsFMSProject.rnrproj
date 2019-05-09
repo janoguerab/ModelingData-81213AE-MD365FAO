@@ -23,13 +23,15 @@
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
     <Name>DevelopmentBasicsFMSProject</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
-    <StartupObject>FMVehicle (FMVehicle.Extension)</StartupObject>
-    <StartupType>Form</StartupType>
+    <StartupObject>dbVehicleListPage</StartupObject>
+    <StartupType>MenuItemDisplay</StartupType>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Base Enum Extensions\" />
     <Folder Include="Base Enums\" />
     <Folder Include="Classes\" />
+    <Folder Include="Display Menu Item Extensions\" />
+    <Folder Include="Display Menu Items\" />
     <Folder Include="EDT Dates\" />
     <Folder Include="EDT Extensions\" />
     <Folder Include="EDT Integers\" />
@@ -38,6 +40,8 @@
     <Folder Include="Form Extensions\" />
     <Folder Include="Forms\" />
     <Folder Include="Label Files\" />
+    <Folder Include="Menu Extensions\" />
+    <Folder Include="Menus\" />
     <Folder Include="Table Extensions\" />
     <Folder Include="Tables\" />
   </ItemGroup>
@@ -171,6 +175,26 @@
       <SubType>Content</SubType>
       <Name>DBFM_es-CO</Name>
       <Link>Label Files\DBFM_es-CO</Link>
+    </Content>
+    <Content Include="AxMenuExtension\MainMenu.Extension">
+      <SubType>Content</SubType>
+      <Name>MainMenu.Extension</Name>
+      <Link>Menu Extensions\MainMenu.Extension</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplayExtension\FMCustomer.Extension">
+      <SubType>Content</SubType>
+      <Name>FMCustomer.Extension</Name>
+      <Link>Display Menu Item Extensions\FMCustomer.Extension</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplay\dbVehicleListPage">
+      <SubType>Content</SubType>
+      <Name>dbVehicleListPage</Name>
+      <Link>Display Menu Items\dbVehicleListPage</Link>
+    </Content>
+    <Content Include="AxMenu\dbVehicleMenu">
+      <SubType>Content</SubType>
+      <Name>dbVehicleMenu</Name>
+      <Link>Menus\dbVehicleMenu</Link>
     </Content>
     <Content Include="AxTableExtension\CustTable.Extension">
       <SubType>Content</SubType>
