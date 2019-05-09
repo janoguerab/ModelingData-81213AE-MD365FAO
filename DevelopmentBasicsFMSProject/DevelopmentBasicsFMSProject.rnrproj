@@ -23,8 +23,8 @@
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
     <Name>DevelopmentBasicsFMSProject</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
-    <StartupObject>dbSalesLineExtensionTest</StartupObject>
-    <StartupType>Class</StartupType>
+    <StartupObject>FMVehicle (FMVehicle.Extension)</StartupObject>
+    <StartupType>Form</StartupType>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Base Enum Extensions\" />
@@ -35,6 +35,8 @@
     <Folder Include="EDT Integers\" />
     <Folder Include="EDT Reals\" />
     <Folder Include="EDT Strings\" />
+    <Folder Include="Form Extensions\" />
+    <Folder Include="Forms\" />
     <Folder Include="Label Files\" />
     <Folder Include="Table Extensions\" />
     <Folder Include="Tables\" />
@@ -144,6 +146,21 @@
       <SubType>Content</SubType>
       <Name>dbVehicleType</Name>
       <Link>Base Enums\dbVehicleType</Link>
+    </Content>
+    <Content Include="AxFormExtension\FMVehicle.Extension">
+      <SubType>Content</SubType>
+      <Name>FMVehicle.Extension</Name>
+      <Link>Form Extensions\FMVehicle.Extension</Link>
+    </Content>
+    <Content Include="AxForm\dbVehicleListPage">
+      <SubType>Content</SubType>
+      <Name>dbVehicleListPage</Name>
+      <Link>Forms\dbVehicleListPage</Link>
+    </Content>
+    <Content Include="AxForm\dbVehicleMaintenance">
+      <SubType>Content</SubType>
+      <Name>dbVehicleMaintenance</Name>
+      <Link>Forms\dbVehicleMaintenance</Link>
     </Content>
     <Content Include="AxLabelFile\DBFM_en-US">
       <SubType>Content</SubType>
