@@ -23,8 +23,8 @@
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
     <Name>DevelopmentBasicsFMSProject</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
-    <StartupObject>dbVehicleListPage</StartupObject>
-    <StartupType>MenuItemDisplay</StartupType>
+    <StartupObject>dbVehicleEntry</StartupObject>
+    <StartupType>Class</StartupType>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Base Enum Extensions\" />
@@ -51,10 +51,20 @@
       <Name>dbClassExtensionDemo_Extension</Name>
       <Link>Classes\dbClassExtensionDemo_Extension</Link>
     </Content>
+    <Content Include="AxClass\dbHelloWorld1">
+      <SubType>Content</SubType>
+      <Name>dbHelloWorld1</Name>
+      <Link>Classes\dbHelloWorld1</Link>
+    </Content>
     <Content Include="AxClass\dbSalesLineExtensionTest">
       <SubType>Content</SubType>
       <Name>dbSalesLineExtensionTest</Name>
       <Link>Classes\dbSalesLineExtensionTest</Link>
+    </Content>
+    <Content Include="AxClass\dbVehicleEntry">
+      <SubType>Content</SubType>
+      <Name>dbVehicleEntry</Name>
+      <Link>Classes\dbVehicleEntry</Link>
     </Content>
     <Content Include="AxEdtExtension\CustTransRefRecId.Extension">
       <SubType>Content</SubType>
@@ -70,6 +80,11 @@
       <SubType>Content</SubType>
       <Name>dbFuelCapacity</Name>
       <Link>EDT Reals\dbFuelCapacity</Link>
+    </Content>
+    <Content Include="AxEdt\dbGrossVehicleWeight">
+      <SubType>Content</SubType>
+      <Name>dbGrossVehicleWeight</Name>
+      <Link>EDT Integers\dbGrossVehicleWeight</Link>
     </Content>
     <Content Include="AxEdt\dbMake">
       <SubType>Content</SubType>
@@ -90,6 +105,11 @@
       <SubType>Content</SubType>
       <Name>dbModelYear</Name>
       <Link>EDT Integers\dbModelYear</Link>
+    </Content>
+    <Content Include="AxEdt\dbNote">
+      <SubType>Content</SubType>
+      <Name>dbNote</Name>
+      <Link>EDT Strings\dbNote</Link>
     </Content>
     <Content Include="AxEdt\dbNumOfDoors">
       <SubType>Content</SubType>
