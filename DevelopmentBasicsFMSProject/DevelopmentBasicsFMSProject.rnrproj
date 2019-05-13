@@ -23,7 +23,7 @@
     <ProjectGuid>{35cfa172-147c-449b-a020-dc36120e55eb}</ProjectGuid>
     <Name>DevelopmentBasicsFMSProject</Name>
     <RootNamespace>DevelopmentBasicsFMSProject</RootNamespace>
-    <StartupObject>dbVehicleEntry</StartupObject>
+    <StartupObject>FMVehicleEventHandlers</StartupObject>
     <StartupType>Class</StartupType>
   </PropertyGroup>
   <ItemGroup>
@@ -65,6 +65,11 @@
       <SubType>Content</SubType>
       <Name>dbVehicleEntry</Name>
       <Link>Classes\dbVehicleEntry</Link>
+    </Content>
+    <Content Include="AxClass\FMVehicleEventHandlers">
+      <SubType>Content</SubType>
+      <Name>FMVehicleEventHandlers</Name>
+      <Link>Classes\FMVehicleEventHandlers</Link>
     </Content>
     <Content Include="AxEdtExtension\CustTransRefRecId.Extension">
       <SubType>Content</SubType>
@@ -141,6 +146,16 @@
       <Name>dbYear</Name>
       <Link>EDT Integers\dbYear</Link>
     </Content>
+    <Content Include="AxEdt\FMCustomerBirthday">
+      <SubType>Content</SubType>
+      <Name>FMCustomerBirthday</Name>
+      <Link>EDT Dates\FMCustomerBirthday</Link>
+    </Content>
+    <Content Include="AxEdt\NumberOfCylinders">
+      <SubType>Content</SubType>
+      <Name>NumberOfCylinders</Name>
+      <Link>EDT Integers\NumberOfCylinders</Link>
+    </Content>
     <Content Include="AxEnumExtension\CustTransRefType.Extension">
       <SubType>Content</SubType>
       <Name>CustTransRefType.Extension</Name>
@@ -170,6 +185,11 @@
       <SubType>Content</SubType>
       <Name>dbVehicleType</Name>
       <Link>Base Enums\dbVehicleType</Link>
+    </Content>
+    <Content Include="AxFormExtension\FMCustomer.Extension">
+      <SubType>Content</SubType>
+      <Name>FMCustomer.Extension</Name>
+      <Link>Form Extensions\FMCustomer.Extension</Link>
     </Content>
     <Content Include="AxFormExtension\FMVehicle.Extension">
       <SubType>Content</SubType>
@@ -220,6 +240,16 @@
       <SubType>Content</SubType>
       <Name>CustTable.Extension</Name>
       <Link>Table Extensions\CustTable.Extension</Link>
+    </Content>
+    <Content Include="AxTableExtension\FMCustomer.Extension">
+      <SubType>Content</SubType>
+      <Name>FMCustomer.Extension</Name>
+      <Link>Table Extensions\FMCustomer.Extension</Link>
+    </Content>
+    <Content Include="AxTableExtension\FMVehicle.Extension">
+      <SubType>Content</SubType>
+      <Name>FMVehicle.Extension</Name>
+      <Link>Table Extensions\FMVehicle.Extension</Link>
     </Content>
     <Content Include="AxTable\dbCarTable">
       <SubType>Content</SubType>
